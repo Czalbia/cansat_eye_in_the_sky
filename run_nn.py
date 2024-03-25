@@ -17,7 +17,7 @@ data = {
 results = pd.DataFrame()
 
 photo_folder = "photo_folder"
-model = YOLO("MODELS/drone_only.pt")
+model = YOLO("MODELS/long_range2.pt")
 
 def convert_tensor_to_table(tensor):
     final_result = str(tensor)[7:-1]
